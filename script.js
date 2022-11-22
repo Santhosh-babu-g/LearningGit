@@ -68,6 +68,3 @@ function kingAttackPosition(x,y){
     }
     return attacks;
 }
-console.time();
-console.log(kingAttackPositions(5, 6));
-console.timeEnd();
